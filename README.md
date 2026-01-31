@@ -24,12 +24,11 @@ Use it only on systems you own or have explicit permission to test.
 
 
 ## 📁 Project Structure
-project-folder/
-│
-├── keylog.py        # Main keylogger script
-├── data.txt         # Generated log file
-├── .env             # Environment variables (not committed)
-└── README.md        # Project documentation
+- **keylog.py** – Main keylogger script  
+- **data.txt** – Generated log file  
+- **.env** – Environment variables (not committed)  
+- **README.md** – Project documentation
+all in the same folder
 
 
 ## 🔐 Environment Variables (`.env`)
