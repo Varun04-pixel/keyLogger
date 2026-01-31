@@ -23,14 +23,6 @@ Use it only on systems you own or have explicit permission to test.
 - `python-dotenv` (environment variable management)
 
 
-## 📁 Project Structure
-- **keylog.py** – Main keylogger script  
-- **data.txt** – Generated log file  
-- **.env** – Environment variables (not committed)  
-- **README.md** – Project documentation
-all in the same folder
-
-
 ## 🔐 Environment Variables (`.env`)
 Create a `.env` file in the project root:
 
