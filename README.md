@@ -1,13 +1,12 @@
 # Python Keylogger with Email Reporting (Educational Project)
 
-## 📌 Overview
+
 This project is a **Python-based keylogger**.  
 It logs keystrokes with timestamps into a file and **automatically emails the log file** when the `ESC` key is pressed.
 
 ⚠️ **This project is strictly for educational purposes only.**  😂
 Use it only on systems you own or have explicit permission to test. 
 
----
 
 ## ✨ Features
 - Logs keyboard input with date & time
@@ -16,7 +15,6 @@ Use it only on systems you own or have explicit permission to test.
 - Automatically emails the log file as an attachment
 - Uses environment variables for sensitive data
 
----
 
 ## 🛠️ Technologies Used
 - Python 3
@@ -24,7 +22,6 @@ Use it only on systems you own or have explicit permission to test.
 - `smtplib` (email sending)
 - `python-dotenv` (environment variable management)
 
----
 
 ## 📁 Project Structure
 project-folder/
@@ -34,7 +31,6 @@ project-folder/
 ├── .env # Environment variables (not committed)
 ├── README.md # Project documentation
 
----
 
 ## 🔐 Environment Variables (`.env`)
 Create a `.env` file in the project root:
@@ -54,7 +50,7 @@ Enable 2-Step Verification in your Google account.
 
 📦 Installation
 1️⃣ Clone the repository
-git clone <repo-url>
+git clone https://github.com/Varun04-pixel/keyLogger.git
 cd project-folder
 
 2️⃣ Install dependencies
