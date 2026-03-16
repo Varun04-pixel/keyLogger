@@ -30,6 +30,7 @@ Create a `.env` file in the project root:
 SENDER_EMAIL = "your_email@gmail.com"
 RECEIVER_EMAIL = "receiver_email@gmail.com"
 PASSWORD = "your_app_password"
+```
 
 🔑 Note:
 
@@ -39,16 +40,20 @@ Enable 2-Step Verification in your Google account.
 
 ---
 
-📦 Installation
+## 📦 Installation
 1️⃣ Clone the repository
+```
 git clone https://github.com/Varun04-pixel/keyLogger.git
 cd project-folder
+```
 
 2️⃣ Install dependencies
+```
 pip install pynput python-dotenv
+```
 
 ▶️ Usage
-
 Run the script:
-
+```
 python keylog.py
+```
